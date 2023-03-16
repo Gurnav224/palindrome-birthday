@@ -1,0 +1,31 @@
+:root{
+    --primary-color:#343434;
+    --secondary-color:#e8d0d0;
+}
+
+h1{
+    color: var(--secondary-color);
+}
+
+body{
+    background-color:var(--primary-color);
+    font-family: sans-serif;
+    text-align: center;
+}
+input,button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding:  0.5rem 2rem ;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    transition: all 0.4s;
+}
+h2 {
+    color: #fff;
+}
